@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 23, 23);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(26, 23, 23);
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    color: chocolate;
+    box-shadow: 5px 5px 15px white inset;
+}
+
+.inputArea {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    /* border: 2px solid white; */
+    background-color: rgb(26, 23, 23);
+    color: black;
+    /* box-shadow: 11px 11px 15px chocolate inset; */
+}
+
+.inputArea input {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    box-shadow: 5px 0px 8px chocolate;
+}
+
+#addBtn {
+    padding: 0.5rem 0.3rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px white;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px chocolate;
+    padding: 1rem;
+}
+
+#containDetails {
+    width: 80%;
+}
+
+.playerName,
+.country,
+.score,
+.deleteIcon {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.deleteIcon {
+    cursor: grab;
+}
+
+.at_that_time {
+    color: rgb(182, 181, 181);
+    font-size: .8em;
+}
